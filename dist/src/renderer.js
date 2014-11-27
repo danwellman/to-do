@@ -1,0 +1,1 @@
+define(["knockout"],function(e){function t(t,n,r,i){var s=document.createElement("div");s.innerHTML=n,t.appendChild(s),e.applyBindings(r,i?s.childNodes[0]:t)}return{render:t}});

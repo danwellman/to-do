@@ -1,0 +1,18 @@
+﻿<article class="todo_app">
+    <header class="app_header">
+        <h1 data-bind="text: title"></h1>
+        <div class="controls">
+            <div class="row">
+                <input data-bind="attr: { placeholder: placeholderText }, value: listName" />
+                <button data-bind="text: createText, enable: enableAdd, event: { click: addListHandler }"></button>
+            </div>
+            <div class="row">
+                <select class="saved_list">
+                    <option data-bind="text: noListsText"></option>
+                </select>
+                <button data-bind="text: loadText, enable: enableLoad"></button>
+            </div>
+        </div>
+    </header>
+    <section></section>
+</article>

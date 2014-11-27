@@ -1,0 +1,1 @@
+define(["list","exports","storage"],function(e,t,n){function r(t){return new e(t)}function i(e){n.save(e)}t.createList=r,t.saveList=i});

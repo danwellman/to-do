@@ -1,0 +1,1 @@
+define(["task_manager"],function(e){describe("task_manager",function(){describe("the createTask() method",function(){var t;beforeEach(function(){t=e.createTask("test task")}),it("should return a new task",function(){expect(t.constructor.name).toEqual("Task"),expect(t.name).toEqual("test task")})})})});

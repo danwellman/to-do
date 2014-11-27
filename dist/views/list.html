@@ -1,0 +1,7 @@
+﻿<header>
+    <h1 data-bind="text: listViewModel.listName"></h1>
+    <input data-bind="attr: { placeholder: listViewModel.placeholderText }, value: listViewModel.taskName" />
+    <button data-bind="text: listViewModel.addText, enable: listViewModel.enableAdd, event: { click: listViewModel.addTaskHandler }"></button>
+    <button data-bind="text: listViewModel.saveText, event: { click: listViewModel.saveListHandler }"></button>
+</header>
+<ul></ul>

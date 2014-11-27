@@ -1,0 +1,23 @@
+﻿body { margin: 0; background-color: #f8f4e7; color: #2a3745; font-family: 'Adelle Basic'; }
+.todo_app { width: 45%; margin: auto; }
+.todo_app header { padding: 1.5em 0; border-bottom: 1px solid #DED7BF; }
+.todo_app header::before, .todo_app header::after { content: ''; display: table; clear: both; }
+.todo_app header h1 { margin: 0.25em 0; float: left; font-size: 2.5em; }
+.todo_app .controls { float: right; }
+.todo_app .row:last-of-type { margin-bottom: 0; }
+.todo_app input { padding: 8px 10px 7px 8px; border: none; margin-bottom: .75em; }
+.todo_app button { width: 6em; padding: 8px 4px 7px; border: none; margin-bottom: .75em; margin-left: .5em; cursor: pointer; background-color: #e7e7e7; color: #2a3745; }
+.todo_app button:active, .todo_app button:hover { background-color: #f7f7f7; }
+.todo_app button:active:disabled, .todo_app button:hover:disabled { background-color: #e7e7e7; }
+.todo_app button:disabled { color: #a9a9a9; cursor: not-allowed; }
+.todo_app select { width: 14em; padding: 7px 4px 6px; border: none; margin-bottom: .75em; color: #a9a9a9; cursor: pointer; }
+
+.todo_app section header { border-bottom: none; text-align: right; }
+.todo_app section h1 { margin-top: 0; font-size: 1.5em; }
+
+.todo_app ul { padding: 0; margin: 0; list-style-type: none; }
+.todo_app li { padding: .5em; border-bottom: 1px dashed #DED7BF }
+.todo_app li input { margin: 0 2% 0 0; position: relative; top: .15em; }
+.todo_app li a { float: right; text-decoration: none; color: red; font-family: Arial; font-weight: bold; color: red; }
+.todo_app li a:active, .todo_app li a:hover { color: pink; }
+.todo_app li.complete { text-decoration: line-through; background-color:#caeec6; }

@@ -1,0 +1,1 @@
+require(["text!views/app.html","view_models/app","renderer"],function(e,t,n){var r=document.body,i=new t;n.render(r,e,i)}),define();

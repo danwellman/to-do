@@ -1,0 +1,1 @@
+define([],function(){function e(e){localStorage.setItem(e.id,JSON.stringify(e.tasks))}function t(e){return JSON.parse(localStorage.getItem(e))}function n(){var e,t=[],n=localStorage.length;for(e=0;e<n;e+=1)t.push(localStorage.key(e))}return{save:e,load:t,getLists:n}});

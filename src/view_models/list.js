@@ -48,7 +48,7 @@
 
         this.completeTask = function (taskViewModel) {
             var taskIndex = taskViewModel.id.split('-')[1];
-            this.lists.tasks[taskIndex].completed = !this.list.tasks[taskIndex].completed;
+            this.list.tasks[taskIndex].completed = !this.list.tasks[taskIndex].completed;
         };
         this.completeTaskHandler = this.completeTask.bind(this);
 

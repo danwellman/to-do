@@ -18,7 +18,7 @@
 
         this.toggleTaskComplete = function () {
             this.completed(!this.completed());
-            this.emit('taskcompleted');
+            this.emit('taskcompleted', this);
             return true;
         };
         this.toggleTaskCompleteHandler = this.toggleTaskComplete.bind(this);
